@@ -6,3 +6,7 @@ Large Language Models (LLMs) generate text based on vast training data. Retrieva
 * Elasticsearch is used to retrive document from a database (JSON in this regard) based on user query.
 * This retrived documents is then used to generate a promp that would be passed in to an LLM model (gemini in this case).
 
+# REQUIREMENT
+* Docker to create and run elasticsearch image.
+* Python 
+* [Gemini API](https://ai.google.dev/gemini-api/docs/get-started/tutorial?lang=python). 
